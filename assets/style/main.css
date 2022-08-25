@@ -1,0 +1,44 @@
+.book-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .book {
+    width: 12rem;
+  }
+  
+  .status {
+    font-style: italic;
+  }
+  
+  .book-cover {
+    max-height: 15rem;
+    object-fit: cover;
+    border: 0.2rem solid black;
+  }
+
+  /* .card-body{
+    border: 1px solid gray;
+    height: 6rem;
+  } */
+
+  .card-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    float: right;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+
+ 
+  
+
+
+
+
+  
